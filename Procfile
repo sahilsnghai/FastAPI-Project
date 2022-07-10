@@ -1,0 +1,1 @@
+web: uvicorn application.main:app --host=0.0.0.0 --port=${POST:-7732}
