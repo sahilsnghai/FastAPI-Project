@@ -23,4 +23,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "hello Sahil Singhai."}
+    return [ "Hello Friends this is my First application. It's still not Fully Functional but hope you guys like it  "]
